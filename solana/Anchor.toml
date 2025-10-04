@@ -1,0 +1,13 @@
+[features]
+seahorse = false
+
+[programs.localnet]
+nitro_legacy_inventory = "EksA8EJMGvGQmbEWzQi9eXtviJZtPoEZk6VVVlsMC8UD"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+build = "anchor build"
+dev = "anchor test"

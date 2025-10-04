@@ -1,0 +1,9 @@
+﻿[workspace]
+members = ["programs/nitro_legacy_inventory"]
+resolver = "2"
+
+[workspace.dependencies]
+anchor-lang = "0.29.0"
+
+[features]
+seahorse = []

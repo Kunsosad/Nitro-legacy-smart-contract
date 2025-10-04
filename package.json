@@ -1,0 +1,21 @@
+{
+    "name": "smart-contract",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy:localhost": "npx hardhat run scripts/deploy.ts --network localhost",
+        "clean": "npx hardhat clean",
+        "build": "npx hardhat compile",
+        "test": "npx hardhat test"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+        "hardhat": "^2.26.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
